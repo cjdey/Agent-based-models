@@ -14,7 +14,6 @@
 
 ;;The model is documented in
 
-;Dey et al. 2017 Global Change Biology 23:1821:1831
 ;Dey et al. 2018 Biological Conservation 0:0
 
 
