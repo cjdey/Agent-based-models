@@ -1,3 +1,12 @@
+; this is a model of polar bear predation of common eider nests
+
+; it is well documented in Dey et al. 2017 Global Change Biology 23:1821-1831
+; check there for a full model description
+
+; running this model will require the rngs extension found at
+; https://github.com/cstaelin/RNGS-Extension
+
+
 extensions [ rngs  profiler]
 
 globals [
