@@ -1,6 +1,6 @@
 ;This is a model of how polar bears and common eider ducks might respond to declines in Arctic sea ice.
 
-;For model details see the full ODD model description associated with this model at github.com/cjdey/
+;For model details see the full model description associated with this model at github.com/cjdey/Agent-based-models
 
 ;To run this model:
 ;-make sure you have the rngs extension downloaded (https://github.com/cstaelin/RNGS-Extension)
