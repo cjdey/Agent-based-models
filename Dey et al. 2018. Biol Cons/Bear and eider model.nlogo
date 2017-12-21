@@ -151,7 +151,7 @@ nests-own [
   age
   age-class
   breeding-this-year?
-  qual
+
   ]
 
 patches-own [
@@ -242,7 +242,6 @@ let p ( (100 * nest-clumpiness) / number-islands)
            set color brown
            set size 2  ;; easier to see
            set age one-of initial-eider-age-dist
-           set qual random-normal 0 1
            ifelse age >= 3 [set age-class "adult"] [set age-class "juvenile"]
            ifelse random-float 1 > annual-nest-failure-rate [set last-year-fate 1] [set last-year-fate 0]
           hide-turtle
@@ -498,7 +497,6 @@ to create-ducklings
   [set age 0 set age-class "hatchling"
   set last-year-fate 0
   set hidden? TRUE
-  set qual random-normal 0 1
   set clutch-size 0
   set breeding-this-year? FALSE
   ]
